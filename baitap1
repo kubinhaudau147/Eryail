@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Baitap1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+	<h1>Đặt hàng</h1>
+</head>
+<body>
+ <form>
+   <div>
+     <ol>
+
+   <li>Họ và Tên: <input type="text" placeholder="Họ và tên" ></li>
+   <li>Giới Tính: 
+   	<input type="radio" name="gender">Nam
+   	<input type="radio" name="gender">Nữ
+   </li>
+   <li> Địa chỉ: <input type="adress" placeholder="Địa chỉ"></li>
+   <li>Khu Vực:<select>
+ 	<option>Hà Nội</option>
+    <option>Đà Nẵng</option>
+ 	<option>Hồ Chí Minh</option></select></li>
+   <li> Số điện thoại: <input type="Phone number" placeholder= "Số điện thoại"></li>
+
+   </ol>
+  </div>
+  <div>
+  <input type="checkbox" name="Agreement"> Tôi đòng ý với điều khoản sử dụng
+  </div>
+  <button>Đặt hàng</button>
+ </form>
+</body>
+</html>
